@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe0787de-db30-427b-8b0f-e79d068b979c" name="Default Changelist" comment="" />
+    <list default="true" id="fe0787de-db30-427b-8b0f-e79d068b979c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/User3w.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/User3w.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1 20511251 code Apr.py" beforeDir="false" afterPath="$PROJECT_DIR$/A1_tlleeab_code_Apr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1 20511251 code close.py" beforeDir="false" afterPath="$PROJECT_DIR$/A1_tlleeab_code_close.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1 20511251 code fp.py" beforeDir="false" afterPath="$PROJECT_DIR$/A1_tlleeab_code fp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1 20511251 code ht.py" beforeDir="false" afterPath="$PROJECT_DIR$/A1_tlleeab_code_ht.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1 20511251 report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aprioriFromExternalLib.py" beforeDir="false" afterPath="$PROJECT_DIR$/aprioriFromExternalLib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicOperation.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicOperation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/same.py" beforeDir="false" afterPath="$PROJECT_DIR$/same.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treeNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/treeNode.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Yfejw119Fozenxx16fmCk8JyLK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Python.A1 20511251 code fp (1)">
-    <configuration name="A1 20511251 code close" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.A1_tlleeab_code_Apr">
+    <configuration name="A1 tlleeab code ht" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -29,7 +49,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1 20511251 code close.py" />
+      <option name="SCRIPT_NAME" value="D:\Python\4331HW1\A1 tlleeab code ht.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -38,7 +58,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A1 20511251 code fp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A1_tlleeab_code fp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,7 +70,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1 20511251 code fp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1_tlleeab_code fp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -59,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A1 20511251 code fp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A1_tlleeab_code fp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\4331HW1\A1 20511251 code fp.py" />
+      <option name="SCRIPT_NAME" value="D:\Python\4331HW1\A1_tlleeab_code fp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A1 20511251 code ht (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A1_tlleeab_code_Apr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1 20511251 code ht.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1_tlleeab_code_Apr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="A1 20511251 code ht" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="A1_tlleeab_code_close (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,7 +133,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\4331HW1\A1 20511251 code ht.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1_tlleeab_code_close.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="A1_tlleeab_code_ht" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4331HW1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A1_tlleeab_code_ht.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.A1 20511251 code fp (1)" />
-        <item itemvalue="Python.A1 20511251 code ht (1)" />
-        <item itemvalue="Python.A1 20511251 code close" />
-        <item itemvalue="Python.A1 20511251 code ht" />
-        <item itemvalue="Python.A1 20511251 code fp" />
+        <item itemvalue="Python.A1_tlleeab_code_Apr" />
+        <item itemvalue="Python.A1_tlleeab_code_ht" />
+        <item itemvalue="Python.A1_tlleeab_code_close (1)" />
+        <item itemvalue="Python.A1_tlleeab_code fp (1)" />
+        <item itemvalue="Python.A1_tlleeab_code fp" />
       </list>
     </recent_temporary>
   </component>
@@ -158,22 +199,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584256742048" />
-    <state width="1343" height="162" key="GridCell.Tab.0.bottom" timestamp="1584415397261">
+    <state width="1343" height="241" key="GridCell.Tab.0.bottom" timestamp="1584456080645">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="162" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584415397261" />
-    <state width="1343" height="162" key="GridCell.Tab.0.center" timestamp="1584415397261">
+    <state width="1343" height="241" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584456080645" />
+    <state width="1343" height="241" key="GridCell.Tab.0.center" timestamp="1584456080644">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="162" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584415397261" />
-    <state width="1343" height="162" key="GridCell.Tab.0.left" timestamp="1584415397261">
+    <state width="1343" height="241" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584456080644" />
+    <state width="1343" height="241" key="GridCell.Tab.0.left" timestamp="1584456080644">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="162" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584415397261" />
-    <state width="1343" height="162" key="GridCell.Tab.0.right" timestamp="1584415397261">
+    <state width="1343" height="241" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584456080644" />
+    <state width="1343" height="241" key="GridCell.Tab.0.right" timestamp="1584456080644">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="162" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584415397261" />
+    <state width="1343" height="241" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584456080644" />
     <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584407307839">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

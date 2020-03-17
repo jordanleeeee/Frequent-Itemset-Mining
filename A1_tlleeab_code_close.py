@@ -1,7 +1,8 @@
-import aprioriFromExternalLib
+from A1_tlleeab_code_ht import aprioriAlgorithmWithHashing as freqItemset
 import basicOperation
 
 
+# check if largeSet is immediate superset of smallSet
 def isImmediateSuperSet(smallSet, largeSet):
     if largeSet.issuperset(smallSet):
         if len(largeSet) - len(smallSet) == 1:
@@ -12,29 +13,27 @@ def isImmediateSuperSet(smallSet, largeSet):
 data = basicOperation.loadDatabase('a1dataset.txt')
 minsup = 400
 # get frequent Itemset from external library
-freqItemSet = aprioriFromExternalLib.getFreqItemSet(data, minsup)
-print("freq item set are")
-print(freqItemSet)
+freqItemSet = freqItemset(data, minsup)
 
-# count the occurenct of each freq item
+# count the occurrence of each freq item
 dataWithFreq = dict()
 for itemSet in freqItemSet:
     dataWithFreq[tuple(itemSet)] = basicOperation.count(itemSet, data)
 
-print("\ndata with freq")
-print(dataWithFreq)
-
 # find closed and max itemset
 closedItemSet = list()
 maxItemSet = list()
+# go though every freqitem set, and check if it is closed of max
 for x, y in dataWithFreq.items():
     targetSet = set(x)
     freq = y
     isClosedFreqItemSet = True
     isMaxSet = True
+    # compare a itemSet to all other itemSet
     for p, q in dataWithFreq.items():
         comparingSet = set(p)
         comparingfreq = q
+        # do not do self comparison
         if targetSet == comparingSet:
             continue
         if isImmediateSuperSet(targetSet, comparingSet):
@@ -49,6 +48,8 @@ for x, y in dataWithFreq.items():
 
 print("\nclosedItemSet is")
 print(closedItemSet)
+print(len(closedItemSet))
 
 print("\nmaxSet is")
 print(maxItemSet)
+print(len(maxItemSet))

@@ -1,24 +1,26 @@
 from basicOperation import count
-import time
+# import time
 
 
+# merge two itemset (if possible)
 def merge(itemset1, itemset2):
     newFreqItem = set(itemset1).union(set(itemset2))
     if len(newFreqItem) == (len(itemset1)+1):
         return newFreqItem
 
 
-# generate candidates of size (k+1) by merging two frequent itemsets of size k
-def generateCandidates(old_candidates):
-    new_candidates = set()
-    for i in range(len(old_candidates)):
-        for j in range(i + 1, len(old_candidates)):
-            newItemset = merge(old_candidates[i], old_candidates[j])
-            # if merge is success
+# generate candidates of length (k+1) by merging two frequent itemsets of length k
+def generateCandidates(oldCandidates):
+    newCandidates = set()
+    for i in range(len(oldCandidates)):
+        for j in range(i + 1, len(oldCandidates)):
+            newItemset = merge(oldCandidates[i], oldCandidates[j])
+            # if merge is success, add it to newCandidate set
             if newItemset is not None:
-                new_candidates.add(tuple(sorted(tuple(newItemset))))
+                newCandidates.add(tuple(sorted(tuple(newItemset))))
+    # conver the set to a list
     result = list()
-    for i in new_candidates:
+    for i in newCandidates:
         result.append(sorted(i))
     return sorted(result)
 
@@ -34,12 +36,12 @@ def isFrequentSubset(itemset, old_candidates):
 
 
 # prune candidates which has infrequent subsets
-def prune(candidates, old_candidates):
-    after_prune = list()
+def prune(candidates, oldCandidates):
+    afterPrune = list()
     for itemset in candidates:
-        if isFrequentSubset(itemset, old_candidates):
-            after_prune.append(itemset)
-    return after_prune
+        if isFrequentSubset(itemset, oldCandidates):
+            afterPrune.append(itemset)
+    return afterPrune
 
 
 # generate the frequent items of length 1
@@ -60,20 +62,18 @@ def length_1_freqItemSet(data, minsup):
 
 
 def aprioriAlgorithm(data, minsup):
-    #     generate frequent itemsets of size 1
+    #  generate frequent itemsets of size 1
     Lk = length_1_freqItemSet(data, minsup)
     freq_itemsets = list(Lk)
-    # length = 1
     while len(Lk) > 0:
-        # length += 1
-        start = time.time()
+        # length K+1 candidates
         nextLk = generateCandidates(Lk)
+        # remove infrequent candidates
         nextLk = prune(nextLk, Lk)
-        # print(len(Cknext))
+        # count and kick away infrequent candidate
         Lk = list()
         for itemSet in nextLk:
             if count(itemSet, data) >= minsup:
                 Lk.append(itemSet)
                 freq_itemsets.append(itemSet)
-        # print(str(length) + ": " + str(time.time() - start))
     return freq_itemsets

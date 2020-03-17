@@ -10,6 +10,7 @@ class TreeNode:
         self.bucketSize = bucketSize
         self.level = level
 
+    # store all frequent item set in freqItemSet
     def getFreqItemSet(self, freqItemSet, minsup):
         for node in self.subNode:
             if isinstance(node, TreeNode):
@@ -25,7 +26,7 @@ class TreeNode:
         record = list()
         for i in range(len(partialTransaction)):
             targetingIndex = partialTransaction[i] % self.hashKey
-            # in not yet go though the sub node yet
+            # if not yet go though the sub node yet, go though it
             if targetingIndex not in record:
                 record.append(targetingIndex)
                 node = self.subNode[targetingIndex]
@@ -33,6 +34,7 @@ class TreeNode:
                     node.__update(transaction, partialTransaction[i+1::])
                 elif node is None:
                     continue
+                # reached a leaf, do comparison to every item set in the leaf
                 else:
                     for x, y in node.items():
                         if findInRecord(x, transaction):

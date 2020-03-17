@@ -1,20 +1,21 @@
 from basicOperation import loadDatabase
-import time
+# import time
 
 
-# generate the frequent items of length 1
+# the tree node of FP tree
 class TreeNode:
     def __init__(self, key, parentNode):
-        self.key = key              # item
-        self.value = 1              # frequency (default is 1)
+        self.key = key  # item
+        self.value = 1  # frequency (default is 1)
         self.childNode = dict()
         self.parentNode = parentNode
-        self.linkage = None
+        self.linkage = None  # linked to another node with same key
 
     def freqIncrease(self):
         self.value += 1
 
 
+# get list of frequent item( length ), the list is sorted base on frequency
 def getFrequentItem(data, minsup):
     dictionary = dict()
     for record in data:
@@ -33,7 +34,7 @@ def getFrequentItem(data, minsup):
     return freq_items
 
 
-def getFilteredSortedFrequentTable(data, freqItem):
+def getOrderedFrequentItems(data, freqItem):
     table = list()
     for item in data:
         oneDataSet = list()
@@ -44,12 +45,13 @@ def getFilteredSortedFrequentTable(data, freqItem):
     return table
 
 
-def updateLinkage(currentNode, targetNode):
-    while currentNode.linkage is not None:
-        currentNode = currentNode.linkage
-    currentNode.linkage = targetNode
+def updateLinkage(headOfLinkedList, newNode):
+    while headOfLinkedList.linkage is not None:
+        headOfLinkedList = headOfLinkedList.linkage
+    headOfLinkedList.linkage = newNode
 
 
+# update the FP tree
 def updateTree(itemset, parentNode, headLinkTable):
     if len(itemset) == 0:
         return
@@ -72,6 +74,7 @@ def updateTree(itemset, parentNode, headLinkTable):
         updateTree(itemset[1::], parentNode.childNode[item], headLinkTable)
 
 
+# build the FP tree, and return the HeadLinkTabls as well as the root of the tree
 def buildTree(itemTable, freqItem):
     # construct the node link table
     headLinkTable = dict()
@@ -80,15 +83,21 @@ def buildTree(itemTable, freqItem):
 
     # create tree
     treeRoot = TreeNode("NULL", None)
+    # update the tree
     for itemset in itemTable:
         updateTree(itemset, treeRoot, headLinkTable)
     # treeRoot.printTree()
     return headLinkTable, treeRoot
 
 
+'''
+store all mined frequent in the freq_itemsets
+data is all the transction, posPattern is previous pattern, when first call posPattern is None
+freq_itemsets is a set that will store all mined frequent item
+'''
 def FPGrowth(data, minsup, posPattern, freq_itemsets):
     freqItem = getFrequentItem(data, minsup)
-    filteredSortedItemTable = getFilteredSortedFrequentTable(data, freqItem)
+    filteredSortedItemTable = getOrderedFrequentItems(data, freqItem)
     headLinkTable, treeRoot = buildTree(filteredSortedItemTable, freqItem)
 
     # base case of the recursion
@@ -129,15 +138,16 @@ def FPGrowth(data, minsup, posPattern, freq_itemsets):
 
 
 data = loadDatabase('a1dataset.txt')
-start = time.time()
+# start = time.time()
 minsup = 400
 freq_itemsets = set()
 FPGrowth(data, minsup, None, freq_itemsets)
-print("result")
+print("result is")
 result = list()
 for items in freq_itemsets:
     result.append(list(items))
 print(result)
 print(len(result))
-duration = time.time() - start
-print(duration)
+#
+# duration = time.time() - start
+# print(duration)
