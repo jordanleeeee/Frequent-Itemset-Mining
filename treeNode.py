@@ -2,13 +2,14 @@ from basicOperation import findInRecord
 
 
 class TreeNode:
-    def __init__(self, hashKey, level, bucketSize):
+    def __init__(self, hashKey, level, bucketSize, length):
         self.subNode = list()
         for i in range(hashKey):
             self.subNode.append(None)
         self.hashKey = hashKey
         self.bucketSize = bucketSize
         self.level = level
+        self.length = length
 
     # store all frequent item set in freqItemSet
     def getFreqItemSet(self, freqItemSet, minsup):
@@ -23,6 +24,8 @@ class TreeNode:
                         freqItemSet.append(list(x))
 
     def __update(self, transaction, partialTransaction):
+        if self.length > self.level + len(partialTransaction):
+            return
         record = list()
         for i in range(len(partialTransaction)):
             targetingIndex = partialTransaction[i] % self.hashKey
@@ -58,7 +61,7 @@ class TreeNode:
                 # can split the tree, then split it, add it to the node
                 else:
                     temp = self.subNode[target].copy()
-                    self.subNode[target] = TreeNode(self.hashKey, self.level + 1, self.bucketSize)
+                    self.subNode[target] = TreeNode(self.hashKey, self.level + 1, self.bucketSize, self.length)
                     for i in temp:
                         self.subNode[target].addChildren(i)
                     self.subNode[target].addChildren(newList)

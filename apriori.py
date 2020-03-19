@@ -61,19 +61,20 @@ def length_1_freqItemSet(data, minsup):
     return sorted(freq_items)
 
 
+# data is a list of transaction, minsup is the minimum support
 def aprioriAlgorithm(data, minsup):
     #  generate frequent itemsets of size 1
-    Lk = length_1_freqItemSet(data, minsup)
-    freq_itemsets = list(Lk)
-    while len(Lk) > 0:
+    candidates = length_1_freqItemSet(data, minsup)
+    freq_itemsets = list(candidates)
+    while len(candidates) > 0:
         # length K+1 candidates
-        nextLk = generateCandidates(Lk)
+        nextCandidates = generateCandidates(candidates)
         # remove infrequent candidates
-        nextLk = prune(nextLk, Lk)
+        nextCandidates = prune(nextCandidates, candidates)
         # count and kick away infrequent candidate
-        Lk = list()
-        for itemSet in nextLk:
+        candidates = list()
+        for itemSet in nextCandidates:
             if count(itemSet, data) >= minsup:
-                Lk.append(itemSet)
+                candidates.append(itemSet)
                 freq_itemsets.append(itemSet)
     return freq_itemsets

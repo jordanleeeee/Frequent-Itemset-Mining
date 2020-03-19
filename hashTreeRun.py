@@ -1,14 +1,16 @@
 import apriori as ap
 import treeNode
 from basicOperation import loadDatabase
-# import time
+import time
 
 
 def aprioriAlgorithmWithHashing(data, minsup):
     # same algorithm as apriori at first
     Lk = ap.length_1_freqItemSet(data, minsup)
     freq_itemsets = list(Lk)
+    length = 1
     while len(Lk) > 0:
+        length += 1
         # start = time.time()
         nextLk = ap.generateCandidates(Lk)
         nextLk = ap.prune(nextLk, Lk)
@@ -16,7 +18,7 @@ def aprioriAlgorithmWithHashing(data, minsup):
         # use hashing to count and eliminate candidate instead
         Lk = list()
         # read treeNode.py for details of tree node
-        hashTreeRoot = treeNode.TreeNode(800, 0, 20)
+        hashTreeRoot = treeNode.TreeNode(800, 0, 20, length)
         # add all item set to the tree
         for itemSet in nextLk:
             hashTreeRoot.addChildren(itemSet)
@@ -35,11 +37,11 @@ def aprioriAlgorithmWithHashing(data, minsup):
 
 
 data = loadDatabase('a1dataset.txt')
-# start = time.time()
+start = time.time()
 minsup = 400
 freq_itemsets = aprioriAlgorithmWithHashing(data, minsup)
 print("frequent itemset are")
 print(freq_itemsets)
 print(len(freq_itemsets))
-# duration = time.time() - start
-# print(duration)
+duration = time.time() - start
+print(duration)

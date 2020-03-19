@@ -1,4 +1,4 @@
-from A1_tlleeab_code_ht import aprioriAlgorithmWithHashing as freqItemset
+from hashTreeRun import aprioriAlgorithmWithHashing as freqItemset
 import basicOperation
 
 
