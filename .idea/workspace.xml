@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fe0787de-db30-427b-8b0f-e79d068b979c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1_tlleeab_code fp.py" beforeDir="false" afterPath="$PROJECT_DIR$/FPGrowthRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1_tlleeab_code_Apr.py" beforeDir="false" afterPath="$PROJECT_DIR$/AprioriRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1_tlleeab_code_close.py" beforeDir="false" afterPath="$PROJECT_DIR$/closeAndMaxSetMining.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1_tlleeab_code_ht.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashTreeRun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/apriori.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treeNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/treeNode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +151,37 @@
       <option name="presentableId" value="Default" />
       <updated>1583338216204</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1584613505621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584613505621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1584613609260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584613609260</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="425" y="186" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584186377351">
@@ -172,10 +196,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="412" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584256742048" />
-    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584613504034">
+    <state x="321" y="0" key="CommitChangelistDialog2" timestamp="1584613608098">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584613504034" />
+    <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584613608098" />
     <state width="1343" height="228" key="GridCell.Tab.0.bottom" timestamp="1584613468719">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -192,6 +216,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1343" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584613468719" />
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1584613611630">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584613611630" />
     <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584606790819">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
