@@ -23,8 +23,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.hashTreeRun">
+  <component name="RunManager" selected="Python.hashTreeRun (1)">
     <configuration name="AprioriRun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,27 +47,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FPGrowthRun" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="4331HW1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\python\freqItemsetMining\FPGrowthRun.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="closeAndMaxSetMining" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="4331HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,6 +60,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\python\freqItemsetMining\closeAndMaxSetMining.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hashTreeRun (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="4331HW1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hashTreeRun.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hashTreeRun (1)" />
         <item itemvalue="Python.hashTreeRun" />
         <item itemvalue="Python.junk" />
         <item itemvalue="Python.AprioriRun" />
         <item itemvalue="Python.closeAndMaxSetMining" />
-        <item itemvalue="Python.FPGrowthRun" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -200,30 +203,34 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="321" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1584613608098" />
-    <state width="1343" height="228" key="GridCell.Tab.0.bottom" timestamp="1584613468719">
+    <state x="461" y="125" key="FileChooserDialogImpl" timestamp="1584624679480">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="228" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584613468719" />
-    <state width="1343" height="228" key="GridCell.Tab.0.center" timestamp="1584613468719">
+    <state x="461" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1584624679480" />
+    <state width="1343" height="194" key="GridCell.Tab.0.bottom" timestamp="1584619278627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="228" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584613468719" />
-    <state width="1343" height="228" key="GridCell.Tab.0.left" timestamp="1584613468719">
+    <state width="1343" height="194" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584619278627" />
+    <state width="1343" height="194" key="GridCell.Tab.0.center" timestamp="1584619278627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="228" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584613468719" />
-    <state width="1343" height="228" key="GridCell.Tab.0.right" timestamp="1584613468719">
+    <state width="1343" height="194" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584619278627" />
+    <state width="1343" height="194" key="GridCell.Tab.0.left" timestamp="1584619278627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1343" height="228" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584613468719" />
+    <state width="1343" height="194" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584619278627" />
+    <state width="1343" height="194" key="GridCell.Tab.0.right" timestamp="1584619278627">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1343" height="194" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584619278627" />
     <state x="274" y="116" key="Vcs.Push.Dialog.v2" timestamp="1584613611630">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="274" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1584613611630" />
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1584606790819">
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog" timestamp="1587521935423">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584606790819" />
+    <state x="378" y="206" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587521935423" />
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584613432533">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
